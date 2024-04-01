@@ -27,4 +27,11 @@ p {
 .recipe-link {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+.recipe-link img{
+    display: inline;
+    margin: 0px 0px -15px 0px;
+    padding: 0px;
 }
