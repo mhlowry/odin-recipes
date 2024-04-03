@@ -28,6 +28,7 @@ p {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     display: block;
+    margin: 5px 0px;
 }
 
 .recipe-link img{
