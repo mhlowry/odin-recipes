@@ -71,13 +71,22 @@ nav a {
     flex-direction: column;
     gap: 1em;
     margin-top: 15px;
+    width: fit-content;
+    flex: auto;
 }
 
 .recipe-link {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    display: block;
     margin: 5px 0px;
+}
+
+.recipe-link a {
+    text-decoration: none;
+}
+
+.recipe-link a:hover {
+    background-color: orange;
 }
 
 .recipe-link img {
@@ -93,6 +102,7 @@ nav a {
 }
 
 .recipe-item {
+    flex: 1;
     margin: 20px;
 }
 
